@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kịch Phát Thanh - Mùa Xuân Năm Ấy</title>
+    <style>
+        body { background: #121212; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .container { background: #1e1e1e; padding: 30px; border-radius: 20px; text-align: center; width: 90%; max-width: 400px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .logo { font-size: 50px; margin-bottom: 10px; }
+        h1 { font-size: 1.2rem; color: #1db954; }
+        .track-info { margin-bottom: 20px; color: #b3b3b3; font-size: 0.9rem; }
+        
+        /* Khu vực chọn bản nghe */
+        .choice-box { background: #282828; padding: 15px; border-radius: 10px; margin-top: 20px; text-align: left; }
+        .choice-box h3 { font-size: 0.9rem; margin-top: 0; color: #fff; border-bottom: 1px solid #3e3e3e; padding-bottom: 5px; }
+        .audio-item { margin-top: 15px; }
+        label { display: block; font-size: 0.8rem; margin-bottom: 5px; color: #1db954; }
+        audio { width: 100%; }
+        
+        .download-link { display: inline-block; margin-top: 10px; font-size: 0.8rem; color: #888; text-decoration: none; border: 1px solid #444; padding: 5px 10px; border-radius: 5px; }
+        .download-link:hover { background: #333; color: #fff; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="logo">📻</div>
+    <h1>Mùa Xuân Năm Ấy</h1>
+    <div class="track-info">Thời lượng: 23:28 | Kịch Phát Thanh</div>
+
+    <div class="choice-box">
+        <div class="audio-item">
+            <label>▶️ Bản nghe nhanh (Đã chuyển đổi .mp3)</label>
+            <audio controls>
+                <source src="Mùa Xuân Năm Ấy.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="audio-item" style="margin-top: 25px;">
+            <label>🎙️ Bản gốc (Định dạng .amr)</label>
+            <audio controls>
+                <source src="Mùa Xuân Năm Ấy.amr" type="audio/amr">
+            </audio>
+            <a href="Mùa Xuân Năm Ấy.amr" class="download-link" download>Tải về bản gốc .amr (2.25MB)</a>
+        </div>
+    </div>
+
+    <p style="font-size: 0.7rem; color: #555; margin-top: 20px;">Lưu ý: Bản .amr có thể không phát được trên một số trình duyệt web.</p>
+</div>
+
+</body>
+</html>
